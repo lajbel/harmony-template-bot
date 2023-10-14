@@ -1,0 +1,12 @@
+{
+    "fmt": {
+        "semiColons": true,
+        "indentWidth": 4
+    },
+    "imports": {
+        "harmony": "https://deno.land/x/harmony@v2.9.0/mod.ts"
+    },
+    "tasks": {
+        "start": "deno run --allow-env --allow-read --allow-net --watch src/client.ts"
+    }
+}
